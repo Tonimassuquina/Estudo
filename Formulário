@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <form>
+        <!--LEGENDA PARA NOME-->
+        <label for="campo_nome">Nome:</label>
+        <!--INPUT = PARA ENTRADA DE DADOS DO TIPO TEXTO-->
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required><br>
+        <br>
+        <!--INPUT = PARA ENTRADA DE DADOS DO TIPO PASSWIRD-->
+        <label for="campo_senha">Senha</label>
+        <input id="campo_senha" type="password" placeholder="Digite uma senha aqui" required><br>
+        <br>
+        <!--INPUT = PARA ENTRADA DE DADOS DO TIPO EMAIL-->
+        <label for="campo_Email">Email</label>
+        <input id="campo_Email" type="email" placeholder="Digite seu Email aqui" required>
+        <br>
+    </form>
+</body>
+</html>
